@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saibal Banerjee - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Saibal Banerjee
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          saibalban2@yahoo.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +91 xxxxx xxxxx
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div  >
+        <img src="html_finalprojimages/download.png"  class="profile_image"/>
+      </div>
+      <div class="box">
+          <h1>
+            Hi, I'm Saibal Banerjee! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            A committed and innovative Test Automation professional with over 15 years of specializing in Automation Framework Development, 
+            Test Process Automation, CI/CD Implementation, and Process Improvement for cloud and distributed systems. 
+            Demonstrated expertise in automating software quality processes using Python, Selenium, Playwright, and CI/CD tools, delivering high-quality, on-time quality deliverables with a consistent track record. 
+            Demonstrates strong analytical and problem-solving skills, ensuring efficient workflows, and driving continuous improvement.
+            Known for excellent cross-functional collaboration and leadership, guiding teams to meet business objectives and deliver optimal solutions.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/python.png"/>
+          <h6>Python</h6>
+          <p>15 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>  
+        
+        <div class="skill">
+          <img src="html_finalprojimages/playwright.jpg"/>
+          <h6>Playwright</h6>
+          <p>2 years experience</p>
+        </div>
+        
+        <div class="skill">
+          <img src="html_finalprojimages/git.webp"/>
+          <h6>Git</h6>
+          <p>5 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/docker.png"/>
+          <h6>Docker</h6>
+          <p>5 years experience</p>
+        </div>
+       0
+        <div class="skill">
+          <img src="html_finalprojimages/linux.png"/>
+          <h6>Linux</h6>
+          <p>15 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/docker.png"/>
+          <h6>Docker</h6>
+          <p>5 years experience</p>
+        </div>
+        
+        <div class="skill">
+          <img src="html_finalprojimages/jenkins8460.jpg"/>
+          <h6>Jenkins</h6>
+          <p>10 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/network.webp"/>
+          <h6>Networking Protocols</h6>
+          <p>15 years experience</p>
+        </div>
+        
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>End to End Automation</h3>
+            <ul>
+              <li>Developed an end-to-end automation for a microservice streaming workflow UI system using PyUnit, Playwright, Selenium, Postman, and Jenkins for Media Streaming Live test regression, reducing the manual testing effort to a minimum and eliminating technical debt.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>CI/CD Implementation</h3>
+            <ul>
+              <li>Engineered a fully programmable CI/CD system with Groovy, Ansible, and Docker, streamlining the QA process and ensuring alignment with the Agile Development team.</li>
+            </ul>
+          </div>
+          <hr>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Saibal was a great experience. He has great knowledge of his domain and also a good person by heart.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          We have worked together for long 3 years. He has good technical knowledge in UNIX and Networking.He always encourage people to take up new challenges and always spread his hand to help others. 
+          I would appreciate an opportunity to work with him in the future.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Saibal is a matured, technically sound having the zeal to grow. An excellent team player and has the capability to become a good team lead.
+          <span>&#8221;</span>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" id="new_name" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
